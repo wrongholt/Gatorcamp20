@@ -1,0 +1,23 @@
+{
+  "name": "node-starter",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "lodash": "^4.17.21",
+    "phaser": "^3.60.0",
+    "sass": "^1.58.3",
+    "webfontloader": "^1.6.28"
+  },
+  "devDependencies": {
+    "css-loader": "^5.2.6",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.0.0",
+    "webpack": "^5.40.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}

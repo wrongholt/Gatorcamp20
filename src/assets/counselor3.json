@@ -1,0 +1,587 @@
+{
+  "textures": [
+    {
+      "image": "counselor3-0.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1325,
+        "h": 1969
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "counselor3Attack_001.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 800,
+            "h": 700
+          },
+          "spriteSourceSize": {
+            "x": 302,
+            "y": 82,
+            "w": 242,
+            "h": 578
+          },
+          "frame": {
+            "x": 1,
+            "y": 1,
+            "w": 242,
+            "h": 578
+          }
+        },
+        {
+          "filename": "counselor3Attack_003.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 800,
+            "h": 700
+          },
+          "spriteSourceSize": {
+            "x": 294,
+            "y": 210,
+            "w": 386,
+            "h": 448
+          },
+          "frame": {
+            "x": 1,
+            "y": 581,
+            "w": 386,
+            "h": 448
+          }
+        },
+        {
+          "filename": "counselor3Attack_004.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 800,
+            "h": 700
+          },
+          "spriteSourceSize": {
+            "x": 294,
+            "y": 210,
+            "w": 384,
+            "h": 448
+          },
+          "frame": {
+            "x": 245,
+            "y": 1,
+            "w": 384,
+            "h": 448
+          }
+        },
+        {
+          "filename": "counselor3Attack_005.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 800,
+            "h": 700
+          },
+          "spriteSourceSize": {
+            "x": 294,
+            "y": 209,
+            "w": 381,
+            "h": 449
+          },
+          "frame": {
+            "x": 1,
+            "y": 1031,
+            "w": 381,
+            "h": 449
+          }
+        },
+        {
+          "filename": "counselor3Attack_006.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 800,
+            "h": 700
+          },
+          "spriteSourceSize": {
+            "x": 294,
+            "y": 208,
+            "w": 380,
+            "h": 450
+          },
+          "frame": {
+            "x": 384,
+            "y": 1031,
+            "w": 380,
+            "h": 450
+          }
+        },
+        {
+          "filename": "counselor3Attack_002.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 800,
+            "h": 700
+          },
+          "spriteSourceSize": {
+            "x": 295,
+            "y": 209,
+            "w": 378,
+            "h": 449
+          },
+          "frame": {
+            "x": 1,
+            "y": 1482,
+            "w": 378,
+            "h": 449
+          }
+        },
+        {
+          "filename": "counselor3Attack_000.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 800,
+            "h": 700
+          },
+          "spriteSourceSize": {
+            "x": 235,
+            "y": 130,
+            "w": 299,
+            "h": 528
+          },
+          "frame": {
+            "x": 631,
+            "y": 1,
+            "w": 299,
+            "h": 528
+          }
+        },
+        {
+          "filename": "counselor3Idle_008.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 800,
+            "h": 700
+          },
+          "spriteSourceSize": {
+            "x": 293,
+            "y": 181,
+            "w": 198,
+            "h": 478
+          },
+          "frame": {
+            "x": 389,
+            "y": 451,
+            "w": 198,
+            "h": 478
+          }
+        },
+        {
+          "filename": "counselor3Idle_012.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 800,
+            "h": 700
+          },
+          "spriteSourceSize": {
+            "x": 293,
+            "y": 181,
+            "w": 198,
+            "h": 478
+          },
+          "frame": {
+            "x": 389,
+            "y": 451,
+            "w": 198,
+            "h": 478
+          }
+        },
+        {
+          "filename": "counselor3Idle_009.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 800,
+            "h": 700
+          },
+          "spriteSourceSize": {
+            "x": 293,
+            "y": 181,
+            "w": 198,
+            "h": 478
+          },
+          "frame": {
+            "x": 589,
+            "y": 531,
+            "w": 198,
+            "h": 478
+          }
+        },
+        {
+          "filename": "counselor3Idle_011.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 800,
+            "h": 700
+          },
+          "spriteSourceSize": {
+            "x": 293,
+            "y": 181,
+            "w": 198,
+            "h": 478
+          },
+          "frame": {
+            "x": 589,
+            "y": 531,
+            "w": 198,
+            "h": 478
+          }
+        },
+        {
+          "filename": "counselor3Idle_010.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 800,
+            "h": 700
+          },
+          "spriteSourceSize": {
+            "x": 293,
+            "y": 181,
+            "w": 198,
+            "h": 478
+          },
+          "frame": {
+            "x": 766,
+            "y": 1011,
+            "w": 198,
+            "h": 478
+          }
+        },
+        {
+          "filename": "counselor3Idle_007.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 800,
+            "h": 700
+          },
+          "spriteSourceSize": {
+            "x": 294,
+            "y": 181,
+            "w": 197,
+            "h": 478
+          },
+          "frame": {
+            "x": 381,
+            "y": 1483,
+            "w": 197,
+            "h": 478
+          }
+        },
+        {
+          "filename": "counselor3Idle_013.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 800,
+            "h": 700
+          },
+          "spriteSourceSize": {
+            "x": 294,
+            "y": 181,
+            "w": 197,
+            "h": 478
+          },
+          "frame": {
+            "x": 381,
+            "y": 1483,
+            "w": 197,
+            "h": 478
+          }
+        },
+        {
+          "filename": "counselor3Idle_005.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 800,
+            "h": 700
+          },
+          "spriteSourceSize": {
+            "x": 295,
+            "y": 181,
+            "w": 196,
+            "h": 478
+          },
+          "frame": {
+            "x": 789,
+            "y": 531,
+            "w": 196,
+            "h": 478
+          }
+        },
+        {
+          "filename": "counselor3Idle_006.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 800,
+            "h": 700
+          },
+          "spriteSourceSize": {
+            "x": 295,
+            "y": 181,
+            "w": 196,
+            "h": 478
+          },
+          "frame": {
+            "x": 932,
+            "y": 1,
+            "w": 196,
+            "h": 478
+          }
+        },
+        {
+          "filename": "counselor3Idle_014.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 800,
+            "h": 700
+          },
+          "spriteSourceSize": {
+            "x": 295,
+            "y": 181,
+            "w": 196,
+            "h": 478
+          },
+          "frame": {
+            "x": 932,
+            "y": 1,
+            "w": 196,
+            "h": 478
+          }
+        },
+        {
+          "filename": "counselor3Idle_015.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 800,
+            "h": 700
+          },
+          "spriteSourceSize": {
+            "x": 295,
+            "y": 181,
+            "w": 196,
+            "h": 478
+          },
+          "frame": {
+            "x": 966,
+            "y": 1011,
+            "w": 196,
+            "h": 478
+          }
+        },
+        {
+          "filename": "counselor3Idle_004.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 800,
+            "h": 700
+          },
+          "spriteSourceSize": {
+            "x": 296,
+            "y": 182,
+            "w": 195,
+            "h": 477
+          },
+          "frame": {
+            "x": 987,
+            "y": 481,
+            "w": 195,
+            "h": 477
+          }
+        },
+        {
+          "filename": "counselor3Idle_016.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 800,
+            "h": 700
+          },
+          "spriteSourceSize": {
+            "x": 296,
+            "y": 182,
+            "w": 195,
+            "h": 477
+          },
+          "frame": {
+            "x": 987,
+            "y": 481,
+            "w": 195,
+            "h": 477
+          }
+        },
+        {
+          "filename": "counselor3Idle_003.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 800,
+            "h": 700
+          },
+          "spriteSourceSize": {
+            "x": 297,
+            "y": 182,
+            "w": 194,
+            "h": 477
+          },
+          "frame": {
+            "x": 1130,
+            "y": 1,
+            "w": 194,
+            "h": 477
+          }
+        },
+        {
+          "filename": "counselor3Idle_017.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 800,
+            "h": 700
+          },
+          "spriteSourceSize": {
+            "x": 297,
+            "y": 182,
+            "w": 194,
+            "h": 477
+          },
+          "frame": {
+            "x": 1130,
+            "y": 1,
+            "w": 194,
+            "h": 477
+          }
+        },
+        {
+          "filename": "counselor3Idle_000.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 800,
+            "h": 700
+          },
+          "spriteSourceSize": {
+            "x": 298,
+            "y": 182,
+            "w": 193,
+            "h": 477
+          },
+          "frame": {
+            "x": 580,
+            "y": 1491,
+            "w": 193,
+            "h": 477
+          }
+        },
+        {
+          "filename": "counselor3Idle_001.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 800,
+            "h": 700
+          },
+          "spriteSourceSize": {
+            "x": 298,
+            "y": 182,
+            "w": 193,
+            "h": 477
+          },
+          "frame": {
+            "x": 775,
+            "y": 1491,
+            "w": 193,
+            "h": 477
+          }
+        },
+        {
+          "filename": "counselor3Idle_019.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 800,
+            "h": 700
+          },
+          "spriteSourceSize": {
+            "x": 298,
+            "y": 182,
+            "w": 193,
+            "h": 477
+          },
+          "frame": {
+            "x": 775,
+            "y": 1491,
+            "w": 193,
+            "h": 477
+          }
+        },
+        {
+          "filename": "counselor3Idle_002.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 800,
+            "h": 700
+          },
+          "spriteSourceSize": {
+            "x": 298,
+            "y": 182,
+            "w": 193,
+            "h": 477
+          },
+          "frame": {
+            "x": 970,
+            "y": 1491,
+            "w": 193,
+            "h": 477
+          }
+        },
+        {
+          "filename": "counselor3Idle_018.png",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 800,
+            "h": 700
+          },
+          "spriteSourceSize": {
+            "x": 298,
+            "y": 182,
+            "w": 193,
+            "h": 477
+          },
+          "frame": {
+            "x": 970,
+            "y": 1491,
+            "w": 193,
+            "h": 477
+          }
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "3.0",
+    "smartupdate": "$TexturePacker:SmartUpdate:886e5cab8f4326799b49496950cdb5c7:34c041ffca04d92225f50f52d589c569:07b4a3a0062412ce153fa79b5612151c$"
+  }
+}
