@@ -1,5 +1,4 @@
 import 'phaser';
-
 import WebFontLoader from 'webfontloader';
 
 export default class WebFontFile extends Phaser.Loader.File {
