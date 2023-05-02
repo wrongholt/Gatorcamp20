@@ -18,10 +18,7 @@ class BootScene extends Phaser.Scene {
     this.load.image('owl', 'assets/owl.png');
     this.load.image('gator2', 'assets/gator2.png');
     this.load.image('bear', 'assets/bear.png');
-    this.load.audio({
-      key: 'bearAudio',
-      url: 'soundbank://soundlibrary/animals/amzn_sfx_bear_groan_roar_01',
-    });
+    
     this.load.audio({
       key: 'bgAudio',
       url: 'assets/nightForest.mp3',
@@ -38,6 +35,23 @@ class BootScene extends Phaser.Scene {
       key: 'gatorAudio',
       url: 'assets/gator.mp3',
     });
+    this.load.audio({
+      key: 'gatorcampMusic',
+      url: 'assets/gatorcamp.mp3',
+    });
+    this.load.audio({
+      key: 'gatorAudio',
+      url: 'assets/Electric_Explosion.wav',
+    });
+    this.load.audio({
+      key: 'gatorAudio',
+      url: 'assets/Club_Impact.wav',
+    });
+    this.load.audio({
+      key: 'gatorAudio',
+      url: 'assets/gator.mp3',
+    });
+    
   }
 
   create() {
