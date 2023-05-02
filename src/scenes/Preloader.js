@@ -18,7 +18,7 @@ class BootScene extends Phaser.Scene {
     this.load.image('owl', 'assets/owl.png');
     this.load.image('gator2', 'assets/gator2.png');
     this.load.image('bear', 'assets/bear.png');
-    
+
     this.load.audio({
       key: 'bgAudio',
       url: 'assets/nightForest.mp3',
@@ -40,18 +40,17 @@ class BootScene extends Phaser.Scene {
       url: 'assets/gatorcamp.mp3',
     });
     this.load.audio({
-      key: 'gatorAudio',
+      key: 'electric',
       url: 'assets/Electric_Explosion.wav',
     });
     this.load.audio({
-      key: 'gatorAudio',
+      key: 'club',
       url: 'assets/Club_Impact.wav',
     });
     this.load.audio({
-      key: 'gatorAudio',
-      url: 'assets/gator.mp3',
+      key: 'axe',
+      url: 'assets/Axe_Impact.wav',
     });
-    
   }
 
   create() {

@@ -17,7 +17,6 @@ class GatorCampScene extends Phaser.Scene {
     var mainCharacter = this.characterId;
     var bgSound = this.sound.add('bgAudio');
     bgSound.play();
-    // bgSound.on('loop', listener);
     bgSound.setLoop(true);
     var topContainer = this.add.container(0, 0);
     var speechContainerHeight = newWidth * 0.25;

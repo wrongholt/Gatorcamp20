@@ -10,7 +10,9 @@ class HomeScene extends Phaser.Scene {
     var leftChar;
     var rightChar;
     var centerChar;
-
+    var bgSound = this.sound.add('gatorcampMusic');
+    bgSound.play();
+    bgSound.setLoop(true);
     var newHeight = this.game.config.height;
     var newWidth = this.game.config.width;
     var topContainer = this.add
@@ -134,6 +136,7 @@ class HomeScene extends Phaser.Scene {
       this.setTint(11843512);
       var theCharacterData = this.getData('id');
       console.log(theCharacterData);
+      this.scene.sound.stopAll();
       this.scene.scene.start('GatorCampScene', { id: theCharacterData });
     });
     character.on('pointerout', function (pointer) {
