@@ -58,7 +58,7 @@ class HomeScene extends Phaser.Scene {
       .sprite(1, 0.5, 'counselor1', 'counselor1Idle_000.png')
       .setInteractive()
       .setScale(newWidth / 1800)
-      .setData({ name: 'Abigal Woods', id: 'counselor1', attak: 'axe' });
+      .setData({ name: 'Abigal Woods', id: 'counselor1', attack: 'axe' });
     this.characterClicked(leftChar);
 
     var centerCharContainer = this.add.container(newWidth * 0.5, newHeight / 2);
@@ -66,7 +66,7 @@ class HomeScene extends Phaser.Scene {
     centerChar = this.add
       .sprite(1, 0.5, 'counselor2', 'counselor2Idle_000.png')
       .setInteractive()
-      .setData({ name: 'Father Dove', id: 'counselor2', attak: 'club' })
+      .setData({ name: 'Father Dove', id: 'counselor2', attack: 'club' })
       .setOrigin(0.5)
       .setScale(newWidth / 1800);
     this.characterClicked(centerChar);
@@ -76,7 +76,7 @@ class HomeScene extends Phaser.Scene {
     rightChar = this.add
       .sprite(1, 0.5, 'counselor3', 'counselor3Idle_000.png')
       .setInteractive()
-      .setData({ name: 'Grandpa Gator', id: 'counselor3', attak: 'electric' })
+      .setData({ name: 'Grandpa Gator', id: 'counselor3', attack: 'electric' })
       .setScale(newWidth / 1800);
     this.characterClicked(rightChar);
     topContainer.add(headingImage);

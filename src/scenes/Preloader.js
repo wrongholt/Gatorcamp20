@@ -41,15 +41,15 @@ class BootScene extends Phaser.Scene {
     });
     this.load.audio({
       key: 'electric',
-      url: 'assets/Electric_Explosion.wav',
+      url: 'assets/Electric_Explosion.mp3',
     });
     this.load.audio({
       key: 'club',
-      url: 'assets/Club_Impact.wav',
+      url: 'assets/Club_Impact.mp3',
     });
     this.load.audio({
       key: 'axe',
-      url: 'assets/Axe_Impact.wav',
+      url: 'assets/Axe_Impact.mp3',
     });
   }
 
