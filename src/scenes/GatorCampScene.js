@@ -4,7 +4,20 @@ class GatorCampScene extends Phaser.Scene {
     super();
   }
 
-  preload() {}
+  preload() {
+    this.load.audio({
+      key: 'electric',
+      url: 'assets/Electric_Explosion.mp3',
+    });
+    this.load.audio({
+      key: 'club',
+      url: 'assets/Club_Impact.mp3',
+    });
+    this.load.audio({
+      key: 'axe',
+      url: 'assets/Axe_Impact.mp3',
+    });
+  }
   init(data) {
     console.log('init', data);
     this.characterId = data.id[0];
@@ -208,7 +221,7 @@ class GatorCampScene extends Phaser.Scene {
         speechContainer.setVisible(true);
         speechBubble.content.setText(quote);
         newLeftChar.anims.play(mainCharacter + 'animation2');
-        this.scene.sound.add(attackSound).play();
+        // this.scene.sound.add(attackSound).play();
         this.scene.tweens.chain({
           targets: gator,
           tweens: [
