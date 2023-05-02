@@ -58,7 +58,7 @@ class HomeScene extends Phaser.Scene {
       .sprite(1, 0.5, 'counselor1', 'counselor1Idle_000.png')
       .setInteractive()
       .setScale(newWidth / 1800)
-      .setData({ name: 'Abigal Woods', id: 'counselor1' });
+      .setData({ name: 'Abigal Woods', id: 'counselor1', attak: 'axe' });
     this.characterClicked(leftChar);
 
     var centerCharContainer = this.add.container(newWidth * 0.5, newHeight / 2);
@@ -66,7 +66,7 @@ class HomeScene extends Phaser.Scene {
     centerChar = this.add
       .sprite(1, 0.5, 'counselor2', 'counselor2Idle_000.png')
       .setInteractive()
-      .setData({ name: 'Father Dove', id: 'counselor2' })
+      .setData({ name: 'Father Dove', id: 'counselor2', attak: 'club' })
       .setOrigin(0.5)
       .setScale(newWidth / 1800);
     this.characterClicked(centerChar);
@@ -76,7 +76,7 @@ class HomeScene extends Phaser.Scene {
     rightChar = this.add
       .sprite(1, 0.5, 'counselor3', 'counselor3Idle_000.png')
       .setInteractive()
-      .setData({ name: 'Grandpa Gator', id: 'counselor3' })
+      .setData({ name: 'Grandpa Gator', id: 'counselor3', attak: 'electric' })
       .setScale(newWidth / 1800);
     this.characterClicked(rightChar);
     topContainer.add(headingImage);
@@ -134,7 +134,7 @@ class HomeScene extends Phaser.Scene {
   characterClicked(character) {
     character.on('pointerdown', function (pointer) {
       this.setTint(11843512);
-      var theCharacterData = this.getData('id');
+      var theCharacterData = this.getData(['id', 'attack']);
       console.log(theCharacterData);
       this.scene.sound.stopAll();
       this.scene.scene.start('GatorCampScene', { id: theCharacterData });

@@ -7,7 +7,8 @@ class GatorCampScene extends Phaser.Scene {
   preload() {}
   init(data) {
     console.log('init', data);
-    this.characterId = data.id;
+    this.characterId = data.id[0];
+    this.attackSound = data.id[1];
   }
   create() {
     var newLeftChar;
@@ -15,6 +16,7 @@ class GatorCampScene extends Phaser.Scene {
     var newHeight = this.game.config.height;
     var newWidth = this.game.config.width;
     var mainCharacter = this.characterId;
+    var attackSound = this.attackSound;
     var bgSound = this.sound.add('bgAudio');
     bgSound.play();
     bgSound.setLoop(true);
@@ -206,7 +208,7 @@ class GatorCampScene extends Phaser.Scene {
         speechContainer.setVisible(true);
         speechBubble.content.setText(quote);
         newLeftChar.anims.play(mainCharacter + 'animation2');
-
+        this.scene.sound.add(attackSound).play();
         this.scene.tweens.chain({
           targets: gator,
           tweens: [
