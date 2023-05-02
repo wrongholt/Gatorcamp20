@@ -222,6 +222,7 @@ class GatorCampScene extends Phaser.Scene {
         speechBubble.content.setText(quote);
         newLeftChar.anims.play(mainCharacter + 'animation2');
         // this.scene.sound.add(attackSound).play();
+
         this.scene.tweens.chain({
           targets: gator,
           tweens: [
