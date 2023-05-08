@@ -7,15 +7,15 @@ class GatorCampScene extends Phaser.Scene {
   preload() {
     this.load.audio({
       key: 'electric',
-      url: 'assets/Electric_Explosion.mp3',
+      url: 'assets/electric.mp3',
     });
     this.load.audio({
       key: 'club',
-      url: 'assets/Club_Impact.mp3',
+      url: 'assets/club.mp3',
     });
     this.load.audio({
       key: 'axe',
-      url: 'assets/Axe_Impact.mp3',
+      url: 'assets/axe.mp3',
     });
   }
   init(data) {
@@ -189,7 +189,6 @@ class GatorCampScene extends Phaser.Scene {
         speechContainer.setVisible(false);
       });
     var gatorQuest = false;
-
     var gator = this.add
       .image(newWidth * 0.6, newHeight * 0.95, 'gator2')
       .setBlendMode(Phaser.BlendModes.NORMAL)
@@ -221,7 +220,7 @@ class GatorCampScene extends Phaser.Scene {
         speechContainer.setVisible(true);
         speechBubble.content.setText(quote);
         newLeftChar.anims.play(mainCharacter + 'animation2');
-        // this.scene.sound.add(attackSound).play();
+        this.scene.sound.add(attackSound).play();
 
         this.scene.tweens.chain({
           targets: gator,
@@ -253,6 +252,8 @@ class GatorCampScene extends Phaser.Scene {
       .on('pointerdown', function (pointer) {
         this.setTint(11843512);
         this.anims.play(mainCharacter + 'animation2');
+        this.scene.sound.add(attackSound).play();
+        this.scene.sound.add(attackSound).play();
       })
       .on('pointerout', function (pointer) {
         this.clearTint();
